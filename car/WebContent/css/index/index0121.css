@@ -1,0 +1,905 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #FFF;
+}
+
+/*搜索框*/
+.font_g {
+    color: #00D21E;
+}
+
+.font_14 {
+    font-size: 14px;
+}
+
+.font_b {
+    color: #00A0FF;
+}
+
+#content_search {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    min-height: 25px;
+    z-index: 99;
+    background: url(http://carphoto.atzuche.com/web/images/index/index/ico3.png);
+    height: 100px
+}
+
+#content_search .search {
+    width: 763px;
+    height: 60px;
+    padding-top: 30px;
+    margin: 0 auto
+}
+
+.search1 {
+    float: left;
+    color: #565a5c;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    border: 0px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    cursor: pointer;
+    background: #ffffff;
+    padding: 0px 5px;
+}
+
+.search2 {
+    float: left;
+    color: #ffffff;
+    background: #01D21E;
+    height: 40px;
+    line-height: 38px;
+    font-size: 18px;
+    width: 140px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    border-radius: 0 4px 4px 0;
+}
+
+.search3 {
+    float: left;
+    color: #565a5c;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    border: 0px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    background: #ffffff;
+    padding: 10px 10px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+/*banner*/
+.banner {
+    min-width: 1003px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner_pre_next {
+    position: relative;
+    z-index: 101;
+    top: 200px;
+    display: none
+}
+
+.banner_pre_next .banner_btn_left {
+    position: absolute;
+    left: 20px;
+    color: #fff;
+    font: bold 80px/normal simsun;
+    text-decoration: none;
+}
+
+.banner_pre_next .banner_btn_right {
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    font: bold 80px/normal simsun;
+    text-decoration: none;
+}
+
+.banner_pre_next .banner_btn_right:hover, .banner_pre_next .banner_btn_left:hover {
+    color: #999;
+}
+
+.yq_banner_list {
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 125px;
+    text-align: right;
+    z-index: 100;
+    left: 435px;
+    padding-right: 12px
+}
+
+.yq_banner_list a {
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    background: url(http://carphoto.atzuche.com/web/images/index/index/abg.jpg) no-repeat left
+}
+
+.yq_banner_list a:hover, .yq_banner_list a.hover {
+    background: url(http://carphoto.atzuche.com/web/images/index/index/abg.jpg) no-repeat right
+}
+
+.banner_show {
+    width: 100%;
+    text-align: center;
+    height: 714px;
+    overflow: hidden;
+    position: relative
+}
+
+.bannger_inbox {
+    position: absolute;
+    left: 50%;
+    top: 0px
+}
+
+/*推荐车辆*/
+.recommend_car {
+    width: 100%;
+    height: 190px;
+    background: #ffffff;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.mouseslider {
+    width: 100%;
+    height: 190px;
+}
+
+.mouseslider a {
+    width: 272px;
+    height: 190px;
+    float: left;
+    margin-right: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.recommend_car .mod_maskBar {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: url(http://carphoto.atzuche.com/web/images/index/index/black_60.png);
+    z-index: 10;
+    color: #fff !important;
+    margin-top: -50px;
+}
+
+.recommend_car .mod_maskBar .left {
+    float: left;
+    color: #fffff;
+    width: 150px;
+    height: 45px;
+    line-height: 20px;
+    padding-left: 5px;
+    font-size: 12px;
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.recommend_car .mod_maskBar .right {
+    float: left;
+    color: #fffff;
+    text-align: left;
+    width: 110px;
+    height: 45px;
+    padding-top: 5px;
+}
+
+.recommend_car .mod_maskBarhover {
+    width: 272px;
+    height: 120px;
+    background: #000;
+    z-index: 11;
+    position: relative;
+    margin-top: -190px;
+    text-align: center;
+    padding-top: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    filter: alpha(opacity:0);
+    opacity: 0;
+}
+
+.recommend_car .mod_maskBarhover .mod_mask_pjbg {
+    width: 200px;
+    height: 18px;
+    margin-left: 90px;
+    border: 1px red solid
+}
+
+.recommend_car .mod_maskBarhover .mod_mask_pjbg .font_sart0 {
+    float: left;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+
+.recommend_car .mod_maskBarhover .mod_mask_pjbg .font_sart1 {
+    float: left;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+
+.recommend_car .mod_maskBarhover .mod_mask_pjbg .font_sart2 {
+    float: left;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+
+.recommend_car .dangw {
+    float: left;
+    padding: 1px 3px;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.recommend_car .chep {
+    float: left;
+    padding: 1px 3px;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+/*发现精彩*/
+.found {
+    width: 100%;
+    height: 670px;
+    background: #F1F1F1 url(http://carphoto.atzuche.com/web/images/index/index/fxzc_bg.jpg) repeat-x bottom;
+}
+
+.mouseslider > a {
+    list-style-type: none;
+    float: left;
+!important;
+}
+
+.found .tit {
+    width: 1100px;
+    height: 100px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    line-height: 35px;
+}
+
+.foundpic {
+    width: 1100px;
+    height: 510px;
+    margin: 0 auto;
+}
+
+/*凹凸共享租车是谁*/
+.about_aotuzuche {
+    width: 100%;
+    height: 862px;
+    background: #ffffff
+}
+
+.about_aotuzuche .tit {
+    width: 1100px;
+    height: 70px;
+    padding-top: 70px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #666666;
+    line-height: 35px;
+}
+
+.about_aotuzuche .contentabout {
+    width: 1100px;
+    height: 435px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #666666;
+    line-height: 35px;
+    background: url(http://carphoto.atzuche.com/web/images/index/index/about_bg.jpg) no-repeat;
+}
+
+.about_aotuzuche .contentaboutc {
+    width: 323px;
+    height: 395px;
+    float: right;
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 20px;
+    text-align: left;
+}
+
+.about_aotuzuche .Media {
+    width: 1100px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.about_aotuzuche .Media_tit {
+    width: 1100px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.about_aotuzuche .Media_link {
+    width: 1100px;
+    height: 60px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.about_aotuzuche .Media_link li {
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.about_aotuzuche .Media_link1 {
+    width: 1100px;
+    height: 60px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.about_aotuzuche .Media_link1 li {
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*安全承诺*/
+.security {
+    width: 100%;
+    height: 105px;
+    background: #F1F1F1;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    line-height: 35px;
+}
+
+.security1 {
+    width: 1100px;
+    height: 810px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.security_zk {
+    width: 1100px;
+    height: 85px;
+    border-bottom: 1px solid #A3A3A3;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.security_zkc1 {
+    width: 1100px;
+    height: 245px;
+    padding: 25px 0;
+}
+
+.security_zkc1 li {
+    width: 366px;
+    height: 245px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    line-height: 25px;
+}
+
+/*尾部*/
+.foot_top {
+    width: 100%;
+    height: 60px;
+    background: #EAEAEA;
+    margin-top: 30px;
+}
+
+.foot_top .nav {
+    width: 512px;
+    height: 60px;
+    border-left: 1px solid #DBDBDB;
+    margin: 0 auto;
+}
+
+.foot_top .nav li {
+    width: 127px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    border-right: 1px solid #DBDBDB;
+}
+
+.foot_top .nav li a {
+    display: block;
+    width: 127px;
+    height: 60px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.foot_top .nav li a:hover {
+    color: #666666;
+}
+
+.foot_link {
+    width: 100%;
+    height: 75px;
+    background: #F1F1F1;
+}
+
+.foot_link_line {
+    width: 950px;
+    height: 35px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.foot_link_bt {
+    width: 90px;
+    height: 65px;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    line-height: 30px;
+}
+
+.foot_link_co {
+    width: 850px;
+    float: right;
+    height: 65px;
+}
+
+.foot_link_co li {
+    height: 30px;
+    line-height: 30px;
+    padding-right: 20px;
+    float: left;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+}
+
+.foot_link_co li a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.sectionrollpic {
+    width: 1230px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sectionrollpic .prev, .sectionrollpic .next {
+    display: block;
+    height: 50px;
+    width: 26px;
+    cursor: pointer;
+    float: left;
+    background: url(http://carphoto.atzuche.com/web/images/index/index/unslider-arrow2.png) no-repeat 0 0;
+    margin-top: 200px
+}
+
+.sectionrollpic .prev {
+    background-position: 0 0;
+    margin-right: 16px
+}
+
+.sectionrollpic .prev:hover {
+    background-position: 0 -50px
+}
+
+.sectionrollpic .next {
+    background-position: 0 -100px;
+    margin-left: 5px
+}
+
+.sectionrollpic .next:hover {
+    background-position: 0 -150px
+}
+
+.sectionrollpicshow {
+    float: left;
+    width: 1100px;
+    height: 520px;
+    margin-left: 12px;
+}
+
+.sectionrollpicshow li {
+    float: left;
+    margin-right: 17px;
+    display: inline;
+    height: 510px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.sectionrollpicshow ul li .photo355 {
+    width: 355px;
+    height: 510px;
+    overflow: hidden;
+}
+
+.sectionrollpicshow ul li.first {
+    margin-right: 0px;
+}
+
+.sectionrollpicshow .rsp {
+    width: 100%;
+    height: 510px;
+    overflow: hidden;
+    position: absolute;
+    background: #000;
+    top: 0px;
+    left: 0px;
+}
+
+.sectionrollpicshow .text {
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.sectionrollpicshow .text h3 {
+    width: 100%;
+    margin-top: 110px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "microsoft yahei";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/*输入框*/
+.input100_text {
+    border: solid 1px #aaa;
+    background-color: #fff;
+    padding: 4px;
+    line-height: 25px;
+    color: #666;
+    font-size: 14px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+/*意见提交*/
+.feedback_index {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    z-index: 1041;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid #cccccc;
+    display: none;
+}
+
+.feedback_index_inp {
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    display: none;
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -khtml-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    position: fixed;
+    width: 400px;
+    z-index: 1050;
+    background: #ffffff;
+    height: 200px;
+    overflow: visible;
+    background-clip: padding-box;
+    outline: none;
+    margin: 15% auto;
+    padding: 20px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 2px;
+}
+
+/*计算器*/
+.index_calculator {
+    width: 1100px;
+    height: 210px;
+    margin: 6px auto;
+}
+
+.index_calculatortit {
+    width: 1100px;
+    height: 82px;
+    text-align: center;
+    color: #52575A;
+}
+
+.index_calculatortit p {
+    margin: 0px;
+}
+
+.index_calculatorcon {
+    width: 1055px;
+    height: 45px;
+    background: #F6F6F6;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 3px 0px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.index_calculatorconl2 {
+    width: 254px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    font-size: 18px;
+    background-color: #656565;
+    border-radius: 8px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.index_calculatorconl3 {
+    width: 740px;
+    height: 42px;
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.index_calculatorconl3 p {
+    width: 152px;
+    height: 42px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+.index_calculatorconl3 p.first {
+    margin-left: 0px;
+}
+
+.index_calculatorconr p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.thosen {
+    font-family: "微软雅黑", Arial;
+    padding-top: 50px;
+    text-align: center;
+    height: 800px;
+    width: 1100px;
+}
+
+.thosen > h1 {
+    font-size: 30px;
+}
+
+.thosen > p.details {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.tips .tip {
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    height: 344px;
+}
+
+.tips .tip.last {
+    margin-right: 0;
+}
+
+.tip-1 {
+    width: 352px;
+}
+
+.tip-2 {
+    width: 726px;
+}
+
+.tip > img {
+    width: 100%;
+}
+
+.tip > .content {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    background-color: #000;
+}
+
+/*.tip.active > .content {*/
+/*filter: alpha(opacity=22);*/
+/*-moz-opacity: 0.22;*/
+/*-khtml-opacity: 0.22;*/
+/*opacity: 0.22;*/
+/*background-color: #000;*/
+/*}*/
+
+.tip > .text {
+    content: " ";
+    height: 344px;
+    margin-top: -344px;
+    position: absolute;
+}
+
+.tip-2 > .text {
+    width: 726px;
+}
+
+.tip-1 > .text {
+    width: 352px;
+}
+
+/* #tip1 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_011c.png?20151023");
+}
+
+#tip2 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_02.png");
+}
+
+#tip3 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_03.png");
+}
+
+#tip4 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_04.png");
+}
+
+#tip5 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_05.png");
+}
+
+#tip6 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_06.png");
+}
+
+#tip7 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_07.png");
+}
+
+#tip8 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_08.png");
+}
+
+#tip9 > .text {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/text_09.png");
+} */
+
+#tip1 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pc_01.jpg?201506051029");
+}
+
+#tip2 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pc_02.jpg?20160130");
+}
+
+#tip3 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pc_02.jpg?20160130");
+}
+
+#tip4 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pc_03.jpg?20160130");
+}
+
+#tip5 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pc_04.jpg?20160130");
+}
+
+#tip6 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pc_05.jpg?20160130");
+}
+
+#tip7 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pic_07.jpg?201506051031");
+}
+
+#tip8 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pic_10.jpg?201608251820");
+}
+
+#tip9 {
+    background-image: url("http://carphoto.atzuche.com/web/images/index/tips/pic_09.jpg");
+}
+
+#tip8 .download {
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 300px;
+    padding-top: 10px;
+    height: 34px;
+
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+.tips > a {
+    padding: 0;
+    margin: 0;
+}

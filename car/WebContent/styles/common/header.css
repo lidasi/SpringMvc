@@ -1,0 +1,491 @@
+.navWarp {
+    width: 136px;
+    height: 70px;
+    float: right;
+}
+
+.navWarp ul {
+    float: left;
+}
+
+.navWarp ul li {
+    float: left;
+    position: relative;
+    z-index: 999;
+    width: 136px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+}
+
+.navWarp ul li a {
+    float: left;
+    font-size: 14px;
+    
+    font-family: "微软雅黑", Arial;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navWarp ul li a b {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    cursor: pointer;
+    /*display: block;*/
+    width: 136px;
+    text-align: center;
+}
+
+.navWarp .on a {
+    color: #000000;
+}
+
+.navWarp .on a b {
+    color: #000000;
+    text-decoration: none;
+    background: #eee;
+}
+
+.navWarp ul li {
+    display: block;
+}
+
+.navWarp li .secondlist {
+    display: none;
+    /*width: 136px;*/
+    top: 70px;
+    left: 0;
+    position: absolute;
+    /*height: 0;*/
+    overflow: hidden;
+    z-index: 999;
+    background: #fff;
+    margin: 0;
+    text-align: center;
+    border: #00d21e 1px solid;
+}
+
+.navWarp li .secondlist a {
+    font-family: "微软雅黑", Arial;
+    width: 80px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    /*display: block;*/
+}
+
+.navWarp li .secondlist a:hover {
+    font-family: "微软雅黑", Arial;
+    color: #000000;
+    text-decoration: none;
+    background: #ededed;
+    font-size: 15px;
+}
+
+#newNav_pic {
+    width: 50px;
+    height: 50px;
+}
+
+.locationDiv {
+    float: left;
+    width: 60px;
+    height: 70px;
+    background: url(http://carphoto.atzuche.com/web/images/index_24.png) no-repeat 0 28px;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 30px;
+}
+
+.locationDiv a {
+    float: left;
+    height: 70px;
+    width: 100px;
+    text-decoration: none;
+    line-height: 70px;
+    text-align: left;
+    font-size: 16px;
+    margin: 0 0 0 0px;
+}
+
+.locationDiv a:hover {
+    text-decoration: none;
+}
+
+.hotTel {
+    float: right;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #b4b4b4;
+    margin: 0 0 0 10px;
+}
+
+/*é‰â•‚æŸ¨å¨²æ ¨ã„é«æ›žåŠ¥/å¨´æ»ƒçž¼å¨£î‡€æƒé”Ÿï¿½/éŽå¹¿åžºå©€ï¿½*/
+#moquu_top, #moquu_wxin, #moquu_wshare {
+    z-index: 122;
+    width: 55px;
+    height: 55px;
+    right: 10px;
+    position: fixed;
+    cursor: pointer;
+    _position: absolute;
+    _bottom: auto;
+    _top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))
+}
+
+#moquu_wxin {
+    top: 474px;
+    _margin-top: 474px;
+}
+
+#moquu_wshare a {
+    background: url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) 0 -55px;
+    right: 0;
+    float: left;
+    width: 55px;
+    height: 55px;
+    text-indent: -9999px
+}
+
+#moquu_wshare a:hover {
+    background: url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) -55px -55px
+}
+
+#moquu_wshare {
+    top: 417px;
+    _margin-top: 417px;
+}
+
+#moquu_wxin a {
+    background: url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) 0 -110px;
+    width: 55px;
+    height: 55px;
+    right: 0;
+    float: left;
+    text-indent: -9999px
+}
+
+#moquu_wxin a:hover {
+    background: url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) -55px -110px;
+}
+
+#moquu_top {
+    top: 531px;
+    _margin-top: 531px;
+    background: url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) 0 -165px;
+    width: 55px;
+    height: 55px
+}
+
+
+.moquu_wxin, .moquu_wshare {
+    position: relative;
+    z-index: 2
+}
+
+.moquu_wxin a:hover .moquu_wxinh, .moquu_wshare a:hover .moquu_wshareh {
+    display: block
+}
+
+.moquu_wxin .moquu_wxinh {
+    position: absolute;
+    display: none;
+    left: -153px;
+    top: 0px;
+    width: 153px;
+    height: 55px;
+    background: url(http://carphoto.atzuche.com/web/images/index/header/yaoqing.png) no-repeat
+}
+
+.moquu_wshare .moquu_wshareh {
+    position: absolute;
+    display: none;
+    left: -183px;
+    top: 0px;
+    width: 183px;
+    height: 55px;
+    background: url(http://carphoto.atzuche.com/web/images/index/header/tel2.png) no-repeat
+}
+
+/********  1é–¸æ¬’æ¸¹ç»—æ’´æ½ªé”Ÿï¿½ Begin*/
+#moquu_special{z-index:122;width:50px;height:50px;right:10px;position:fixed;cursor:pointer;
+_position:absolute;_bottom:auto;_
+top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+#moquu_special{top:308px;_margin-top:308px}
+#moquu_special a{background:url(http://carphoto.atzuche.com/web/images/index/header/no1b.png) 0 -0px;right:0;float:left;width:50px;
+height:50px;text-indent:-9999px}
+#moquu_special a:hover{background-color:#000;}
+.moquu_special{position:relative;z-index:2} 
+.moquu_special a:hover .moquu_specialh{display:block}
+.moquu_special .moquu_specialh{
+	 position: absolute; display: none;left: -166px; top: 0px;width:166px; height: 50px;
+    background: url(http://carphoto.atzuche.com/web/images/index/header/no1c.png) no-repeat;
+}
+
+
+/********  1é–¸æ¬’æ¸¹ç»—æ’´æ½ªé”Ÿï¿½ End*/
+/******** é–ºå æ«å¨…æŽ“ç¦éå‹µå‚é–ºå ¬æ‹· begin*/
+
+#moquu_robot{z-index:122;width:55px;height:55px;right:10px;position:fixed;cursor:pointer;
+_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+#moquu_robot{top: 360px;_margin-top: 360px;}
+#moquu_robot a{background:url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) 0 0px;right:0;float:left;width:55px;
+height:55px;text-indent:-9999px}
+#moquu_robot a:hover{background:url(http://carphoto.atzuche.com/web/images/index/header/sbtn.png) -55px 0px;}
+.moquu_robot{position:relative;z-index:2} 
+.moquu_robot a:hover .moquu_roboth{display:block}
+.moquu_robot .moquu_roboth{
+	 position: absolute;
+	 display: none;
+	 left: -183px;
+	 top: 0px;
+	 width: 183px;
+	 height: 55px;
+	 background: url(http://carphoto.atzuche.com/web/images/index/header/service2.png) no-repeat;
+}
+/******** é–ºå æ«å¨…æŽ“ç¦éå‹µå‚é–ºå ¬æ‹· end */
+.cities {
+    width: 360px;
+}
+
+.categories {
+    height: 70px;
+    font-size: 14px;
+}
+
+.categories > .list {
+    float: left;
+    margin-left: 20px;
+    margin-right: 0px;
+    cursor: pointer;
+    height: 35px;
+    padding-top: 35px;
+}
+
+.categories > .list > a.tab, .categories > .list > span {
+    padding-right: 28px;
+    padding-bottom: 20px;
+    float: left;
+    text-decoration: none;
+}
+
+ .categories > .list > span {
+    margin-right: 3px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+ .categories > .list > .down {
+    float: left;
+    margin-right: 25px;
+    height: 35px;
+}
+
+.categories > .downw {
+	float: left;
+    margin-left: 39px;
+    height: 35px;
+}
+
+ .categories > .downw > span {
+    margin-right: 5px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #00D21E;
+}
+ .categories > .list >#moquu_wxinh {
+     display: none;
+ }
+ 
+ .categories > .list >#moquu_wxinh >.moquu_wxinh{
+	position: absolute;
+    left: 62%;
+    top: 65px;
+    width: 160px;
+    height: 217px;
+    border: 0px solid #A9A9A9;
+    background: url(http://carphoto.atzuche.com/web/images/codeTip.jpg) no-repeat;
+ }
+.categories > .list > a.tab:hover {
+    color: #00d21e;
+}
+
+/*.categories > .location {*/
+/*background: url("http://carphoto.atzuche.com/web/images/index_24.png") no-repeat 0px 3px;*/
+/*padding-left: 24px;*/
+/*}*/
+
+.btn-header {
+    background: #00d21e;
+    border: 1px #00d21e solid;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.categories > .right {
+    float: right;
+    margin-left: 0px;
+}
+
+.btn-header-inverse {
+    background: #fff;
+    border: 1px #00d21e solid;
+    color: #00d21e;
+}
+
+.items {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    font-size: 14px;
+    top: 70px;
+    margin-left: -15px;
+    border: 1px solid #C7C7C7;
+}
+
+#cityItems{
+	width: 150px;
+} 
+
+
+#cityItems>.option h2{
+	width: 75px;
+	  font-weight: normal;
+	  line-height: 22px;
+	  margin-top: 0px;
+} 
+#cityItems>.option{
+	width: 75px;
+	  font-weight: normal;
+} 
+.items > .option {
+    /* padding: 6px 10px;
+    text-decoration: none; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.items > .option > h2 a{
+	margin-left: 13px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #969696;
+}
+.items > .option > a{
+	margin-left: 13px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #969696;
+}
+
+.items > .option:hover >a {
+    color: #fff;
+}
+
+.items > .option.active {
+    background: #00d21e;
+    color: #fff;
+}
+
+.items > .option:hover {
+    color: #fff;
+    background: #00d21e;
+}
+
+/* .items:after {
+    content: " ";
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    width: 50px;
+    height: 13px;
+    background: url("http://carphoto.atzuche.com/web/images/header/arrow_shadow.png") no-repeat;
+    z-index: 3;
+    box-sizing: unset;
+} */
+
+.block-row {
+    height: 10px;
+}
+
+.items.right {
+    margin-left: -5px;
+}
+
+.items.right:after {
+    left: auto;
+    right: 20px;
+    box-sizing: unset;
+}
+
+.items.table {
+    /* padding: 3px 3px; */
+    margin-bottom: 0px;
+    width: auto;
+}
+
+.items.table > .option {
+    display: inline-block;
+    text-align: left;
+    /*
+    text-align: center;
+     width: 70px; */
+    width: 150px;
+}
+
+.head_pic {
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.list > .user {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+.down > .glyphicon-menu-down:after {
+    content: " ";
+    background: url("http://carphoto.atzuche.com/web/image/user_tu21.png");
+    width: 8px;
+    height: 7px;
+    float: right;
+    margin-top: 6px;
+    box-sizing: unset;
+}
+
+#citySelect:after {
+    content: " ";
+    background: url("http://carphoto.atzuche.com/web/images/index_24.png");
+    float: left;
+    width: 12px;
+    height: 18px;
+    margin-top: 3px;
+    margin-right: 5px;
+    box-sizing: unset;
+}
+
+#operateItems > .option {
+    width: 150px;
+}
+
+#operateItems {
+    margin-left: 0;
+}

@@ -1,0 +1,376 @@
+@charset "utf-8";
+/*
+     *****
+*****格式化*****
+     *****
+*/
+html, body {
+    -webkit-text-size-adjust: none;
+    background: rgb(247, 247, 247);
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 12px;
+}
+
+body {
+    font-family: "微软雅黑", Arial;
+    font-size: 12px;
+    color: #666;
+    background: rgb(247, 247, 247);
+    min-width: 1200px;
+}
+
+/*body:before {content: "";position: fixed;top: -10px;left: 0;width: 100%;height: 10px;-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);box-shadow: 0px 0px 10px rgba(0,0,0,.8);z-index: 100;}*/
+ol, ul, li {
+    list-style: none;
+}
+
+.redz {
+    color: red;
+}
+
+a {
+    cursor: pointer;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+/*跨浏览器透明度*/
+.opacity {
+    filter: alpha(opacity=50); /* internet explorer */
+    -khtml-opacity: 0.5; /* khtml, old safari */
+    -moz-opacity: 0.5; /* mozilla, netscape */
+    opacity: 0.5; /* fx, safari, opera */
+}
+
+.container {
+    min-height: 6.5em;
+    display: block;
+    vertical-align: middle;
+}
+
+a {
+    color: #000;
+}
+
+/*格式化结束*/
+
+/* top start*/
+.top1 {
+    width: 100%;
+    height: 80px;
+    background: url(http://carphoto.atzuche.com/web/images/bg11.png) repeat-x 0 -11px;
+    z-index: 999;
+    position: relative;
+}
+
+.top_cn {
+    width: 1100px;
+    height: 81px;
+    margin: 0 auto;
+}
+
+.top_logo {
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+.top_logo a {
+    display: block;
+    width: 300px;
+    height: 70px;
+}
+
+.top_text {
+    width: 670px;
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    font-size: 14px;
+}
+
+.top_text a {
+    float: right;
+    margin-right: 15px;
+}
+
+.top_text a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+.top_text a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.top_text a:hover {
+    color: #00d21e;
+    text-decoration: none;
+}
+
+.top_text a:active {
+    color: #00d21e;
+    text-decoration: none;
+}
+
+/*footer start*/
+.footer {
+    width: 100%;
+    height: 248px;
+    background: #efefef;
+    border-top: 1px solid #d1d1d1;
+}
+
+
+.footer_cn {
+    width: 940px;
+    height: 248px;
+    margin: 0 auto
+}
+
+.footer_tnav {
+    width: 940px;
+    height: 140px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.footer_tnav ul {
+    width: 940px;
+    height: 140px;
+    display: block;
+}
+
+.footer_tnav ul li {
+    float: left;
+    height: 140px;
+    display: block;
+}
+
+.footer_tnav ul li h2 {
+    color: #b4b4b4;
+    font-size: 14px;
+    font-weight: 100;
+    display: block;
+    height: 24px;
+}
+
+.footer_tnav_text {
+    line-height: 20px;
+    color: #b4b4b4;
+    font-size: 12px;
+    font-weight: 100;
+}
+.footer_tnav_text h3{display: inline; font-weight: normal; line-height: 24px; margin-top: 0px;}
+.footer_tnav_text a:link {
+    color: #b4b4b4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer_tnav_text a:visited {
+    color: #b4b4b4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer_tnav_text a:hover {
+    color: #b4b4b4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer_tnav_text a:active {
+    color: #b4b4b4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.fonter_tnavgr {
+    color: #b4b4b4
+}
+
+.copy {
+    width: 940px;
+    margin: 0 auto;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    color: #b4b4b4;
+}
+
+
+.footerCity {
+    width: 100%;
+    height: 160px;
+    background: #efefef;
+    border-top: 1px solid #d1d1d1;
+}
+
+.footerCity .footer_tnav ul li h2{
+	padding-left: 20px;
+	font-size: 22px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.footerCity  .footer_tnav {
+    width: 940px;
+    height: 140px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/*分页样式*/
+.pageDiv {
+    height: 31px;
+    min-width: 105px;
+}
+
+.pageDiv a {
+    float: left;
+    height: 31px;
+    width: 33px;
+    text-align: center;
+    line-height: 31px;
+    background: #ffffff;
+    border: #ddd 1px solid;
+    color: #00d21e;
+    text-decoration: none;
+}
+
+.pageDiv a:hover {
+    background: #dedede;
+}
+
+.pageDiv .selectA {
+    float: left;
+    height: 31px;
+    width: 33px;
+    text-align: center;
+    line-height: 31px;
+    background: #00d21e;
+    border: #00d21e 1px solid;
+    color: #ffffff;
+    cursor: default;
+}
+
+.pageDiv .selectA:hover {
+    background: #00d21e;
+}
+
+.pageDiv .prePage {
+    border-radius: 4px 0 0 4px;
+}
+
+.pageDiv .nextPage {
+    border-radius: 0 4px 4px 0;
+}
+
+.pageDiv .disable {
+    float: left;
+    height: 31px;
+    width: 33px;
+    text-align: center;
+    line-height: 31px;
+    background: #dedede;
+    border: #ddd 1px solid;
+    color: #999;
+    cursor: default;
+}
+
+.pageDiv span {
+    float: left;
+    height: 31px;
+    width: 33px;
+    text-align: center;
+    line-height: 31px;
+    color: #00d21e;
+}
+
+#alertDiv {
+    position: absolute;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    background: #000;
+    color: #fff;
+    opacity: 0.7;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    display: none;
+    font-size: 24px;
+    line-height: 60px;
+    z-index: 100000;
+}
+
+/*滚动至最上端*/
+.goToTop {
+    position: absolute;
+    z-index: 1000;
+    right: 30px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    background: #000 url("http://carphoto.atzuche.com/web/images/index_23.png");
+    display: none;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    border-radius: 2px;
+}
+
+.goToTop:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+/**友链**/
+.footer_link {
+    width: 100%;
+    background: #efefef;
+    border-top: 1px solid #d1d1d1;
+}
+
+.footer_cn_link {
+    width: 940px;
+    margin: 0 auto
+}
+
+.footer_tnav_link {
+    width: 940px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.mouseslider a h5{ font-weight: normal;}
+
+.navDiv {
+	margin: 0px auto; width: 1098px;
+	font-size: 14px;
+	padding-top: 15px;
+}
+.navDiv a {
+	font-size: 14px;
+	text-decoration: none;
+}
+.navDiv a:hover {
+	color: #00d21e;
+}
